@@ -1,0 +1,180 @@
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Genci's Portfolio</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Genci</a>
+        <nav class="navbar">
+            <a href="#home" onclick="scrollToSection('home')">Home</a>
+            <a href="#about" onclick="scrollToSection('about')">About</a>
+            <a href="#blog" onclick="scrollToSection('blog')">Blog</a>
+            <a href="#portfolio" onclick="scrollToSection('portfolio')">Portfolio</a>
+            <a href="#contact" onclick="scrollToSection('contact')">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Welcome to my page!</h1>
+            <h2>Hi I'm Genci Duzha</h2>
+            <p>
+                a dedicated and creative programmer,
+                with a passion for turning ideas into impactful designs. 
+                With over 1 year of experience in the industry,
+                I specialize in web design. I try combining creativity with strategy 
+                to deliver solutions for achieving great results.
+                When I'm not working, you can find me exploring in nature or playing some football.
+            </p>
+            <div class="home-sci">
+                <a href="https://www.instagram.com/genciduzha"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.facebook.com/genci.duzha.7/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.linkedin.com/in/genci-duzha-a62175347/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/G3NCI"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="genci.png">
+
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <h1>About Me</h1>
+            <new class="cv">
+            <a href="CV.docx" download="CV.docx">Download my CV</a>
+            </new>
+            <br><br>
+            <h2>Qualifications:</h2>
+            <br>
+            <p>
+                <strong>Education:</strong> <br>
+                Bachelor’s in Computer Science - Beder University [2026]<br>
+                Certified Web Designing Specialist – [Google], [2026]
+            </p>
+            <br>
+            <p>
+                <strong>Skills and experience:</strong>
+            </p>
+            <div class="skills">
+            <div class="skill">
+                <span>C# & C++</span>
+                <div class="progress-bar">
+                <div class="progress" style="width: 65%;"></div>
+                </div>
+                </div>
+                <div class="skill">
+                    <span>Web programming</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Content Creation</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Media Data Analysis</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+                </div>
+                <div class="skill">
+                    <span>Graphic Designing</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 50%;"></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container1">
+        <img src="beder.png">
+        <br>
+    </section>
+
+    <section id="blog" class="blog">
+        <div class="blog-content">
+            <h1>Blog Title: "Boost Your Productivity with Simple Habits"</h1>
+            <br><br>
+            <p> Introduction:
+                Staying productive in today’s fast-paced world can be a challenge. However, adopting a few simple habits can drastically improve your focus and efficiency.
+                <br><br>
+                1. Start Your Day with a Plan:
+                Begin each morning by writing a to-do list. Prioritize tasks and break them into smaller, manageable steps.
+                <br><br>
+                2. Take Regular Breaks:
+                Don’t work nonstop. Short breaks help maintain focus and prevent burnout. The Pomodoro technique—working for 25 minutes and then taking a 5-minute break—works wonders.
+                <br><br>
+                3. Eliminate Distractions:
+                Turn off non-essential notifications and create a distraction-free workspace. It’s easier to focus when there are fewer interruptions.
+                <br><br>
+                Conclusion:
+                By integrating these habits into your daily routine, you can boost your productivity and feel more accomplished at the end of each day. Start today and watch your efficiency soar!
+                
+                </p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="portfolio-content">
+            <h1>My Project</h1>
+            <br><br>
+            <div class="image-gallery">
+                <img src="ttt2.jpg">
+                <img src="ttt0.jpg">
+                <img src="ttt3.jpg">
+                <img src="ttt1.jpg">
+            </div>
+
+            <div class="description">
+                <br>
+                <p>
+                  This is a windows forms application that
+                  was created with the purpose of being a simple game.
+                  It has two game modes where you can play by yourself 
+                  (vs computer)
+                  or you can play againts an other player (2 players).
+                  The system of the game stores the points of each player
+                  so the game can be played as much as wanted!
+                </p>
+                <br><br>
+                <h4>more incoming...</h4>
+            </div>
+    
+        </div>
+    </section>
+            <section id="contact" class="contact">
+                <div class="contact-content">
+                  <h1>Send an e-mail</h1>
+                  <br>
+                  <form action="https://formsubmit.co/gduzha23@beder.edu.al" method="POST">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br><br>
+                    <label for="email">Your E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br><br>
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="3" required></textarea>
+                    <br><br>
+                    <button type="submit">Send Email</button>
+                  </form>
+                </div>
+            <footer>
+            <p>
+              <strong>All Rights Reserved</strong><br>
+              <span id="website-name">Genci Duzha</span> </p>
+            <p>© <span id="website-name">Genci's Portfolio</span>
+             <span id="year">2025</span></p>
+        </footer>
+    </section>
+</body>
+</html>

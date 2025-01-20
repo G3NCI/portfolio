@@ -1,0 +1,247 @@
+body
+   { color:  rgb(68, 2, 98);;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+  }
+*
+   {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS';
+    }
+
+.header 
+   {position: fixed;  
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width : 100%; 
+    padding: 20px 10% ;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;}
+
+.logo 
+   {font-size: 30px;
+   font-style: oblique;
+   color: white;
+   text-decoration: none;
+   font-weight: 700;}
+
+.navbar a
+   {font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color:rgb(68, 2, 98);
+    margin-left: 40px;
+    transition: .2s;}
+
+.navbar a:hover,
+.navbar a.active
+{
+   color: white ;
+}
+ 
+.home, 
+.about, 
+.portfolio, 
+.contact, 
+.blog {
+   height: 100vh;
+   background: rgb(123, 163, 219);
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   align-items: center ;
+   padding: 0 10%;
+}
+
+.home-content {
+   max-width: 600px;
+}
+
+.home-content h1 {
+   font-size: 60px;
+   font-weight: 600;
+}
+
+.home-sci {
+   position: absolute;
+   bottom: 40px;
+   width: 200px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.home-sci a {
+   position: relative;
+   display: inline-flex;
+   justify-content: center;
+   align-content: center;
+   width: 40px;
+   height: 40px;
+   background: transparent;
+   border: 2px solid rgb(68, 2, 98);
+   border-radius: 50%;
+   font-size: 35px;
+   color: rgb(68, 2, 98);
+   text-decoration: none;
+   z-index: 1;
+   overflow: hidden;
+   transition: 0.4s;
+}
+.home-sci a:hover{
+  color:  rgb(160, 168, 227);
+}
+
+.home-sci a::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 0;
+   height: 100%;
+   background : rgb(68, 2, 98);
+   z-index: -1;
+   transition: 0.4s;
+}
+
+.home-sci a:hover::before {
+   width: 100%;
+}
+
+button{
+   background-color:  rgb(68, 2, 98);
+   color :rgb(160, 168, 227); 
+   position: absolute;
+   font-size: 20px;
+}
+.image-container {
+   flex: 1;
+   display: flex;
+   justify-content: flex-end;
+}
+.image-container img {
+   max-width: 100%;
+   max-height: 700px;
+   width: auto;
+   height: auto;}
+
+.about-content h1 {
+   font-size: 40px;
+   font-weight: 400;}
+      
+.about-content {
+   font-family: Arial, sans-serif;
+   color: #333;
+   line-height: 1.6;}
+ 
+.skills {
+   margin-top: 10px;}
+ 
+.skill {
+   margin-bottom: 15px;}
+ 
+.skill span {
+   font-weight: bold;
+   display: inline-block;
+   margin-bottom: 5px;}
+ 
+.progress-bar {
+   background-color: #e0e0e0;
+   border-radius: 25px;
+   overflow: hidden;
+   height: 10px;}
+ 
+.progress {
+   background-color:  rgb(68, 2, 98);
+   height: 100%;
+   width: 0%;
+   transition: width 0.5s ease-in-out;}
+
+.image-container1 {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+   }
+.image-container1 img {
+      max-width: 100%;
+      max-height: 700px;
+      width: auto;
+      height: auto;}
+      
+.cv a {
+      color: rgb(68, 2, 98);
+      text-decoration: none;
+      font-size: 16px; 
+      font-weight: bold;
+     }
+
+.portfolio-content h1{
+   font-size: 45px;
+}
+.portfolio-content .description{
+   font-size: 20px;
+}
+     
+.cv a:hover {
+      color: rgb(255, 255, 255);}
+
+footer {
+      margin-top: auto ;
+      background:rgb(160, 168, 227);
+      color: #fff;
+      padding: 10px;
+      font-size: 16px;
+      text-align: center;
+      border-radius: 20px;
+      margin: 600px , 60px;
+      width: 100%;
+      max-width: 600px;
+     }
+
+textarea {
+   max-width: 200px;
+   max-height: 100px;
+   min-width: 200px;
+   min-height: 100px;
+}
+
+.middle {
+      margin-top: auto;
+      margin-bottom: auto;
+     }
+
+.bottom {
+      margin-top: auto;
+     }
+
+.image-gallery {
+  display: flex; 
+  justify-content: center; 
+  gap: 5px; 
+  flex-wrap: wrap; 
+}
+
+.image-gallery img {
+  width: 250px; 
+  height: 200px; 
+  object-fit: contain; }
+
+.description {
+  text-align: center; 
+  margin-top: 20px; 
+  font-size: 16px; 
+  color:  rgb(68, 2, 98);
+  line-height: 2; }
+
+.blog-content p{
+   font-size: 20px;
+}
+
+.contact {
+   font-size: 25px;
+}
